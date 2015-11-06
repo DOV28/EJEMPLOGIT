@@ -4,7 +4,12 @@ import acm.program.GraphicsProgram;
 public class Ejercicio1 extends acm.program.GraphicsProgram{
 	
 public void run(){
-	GLabel etiqueta=new GLabel("Hola Git!!");
-	add(etiqueta, 120, 130);
+	//cambio el tamaño de la ventana
+	setSize(800, 600);
+	//llamo al metodo que dibuja la piramide
+	pintaPiramide();
+}
+public void pintaPiramide(){
+	
 }
 }
